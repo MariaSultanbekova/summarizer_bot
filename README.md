@@ -7,5 +7,7 @@ So today we will do one thing that will make our life much easier if we don't ha
 The task that we will solve is called summarization. Summarization is the generalization of a text in one or more sentences.
 
 There are 2 types:
-- abstractive(choosing the most important sentences from the text)
-- exctractive(generate one sentence that contains the whole essence of the text)
+- abstractive(generate one sentence that contains the whole essence of the text)
+- exctractive(choosing the most important sentences from the text)
+
+The second approach is better in our case, so we will use it.
