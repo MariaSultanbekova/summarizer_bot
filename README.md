@@ -10,4 +10,13 @@ There are 2 types:
 - abstractive(generate one sentence that contains the whole essence of the text)
 - exctractive(choosing the most important sentences from the text)
 
-The second approach is better in our case, so we will use it.
+In implementation, the second one is easier, so let's start with it
+
+
+
+
+## The approach is called tf-idf, and is to measure the importance of each word for the document.
+
+"If a word occurs frequently in this document and rarely in others, then it is really important."
+
+
