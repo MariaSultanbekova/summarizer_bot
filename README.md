@@ -42,6 +42,42 @@ let's see how they work
 ------------------------------------------------------------------------------------------------------------------------
 
 
+one of the best options for summarization: T5 - model from transformers
+
+
+the model consists of a sequence of encoder blocks and a sequence of decoders
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 align="center"><a  href="">Live Demo</a></h2>
+
 
 
 
