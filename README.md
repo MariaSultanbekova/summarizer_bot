@@ -57,7 +57,9 @@ Here are the results that the model produced
 
 we need convert voice message to text and then feed it out model for summarization
 
-for converting speech to text i use silero model)
+(for converting speech to text i use silero model)
+
+you can sum up the text and look at the results here https://github.com/MariaSultanbekova/summarizer_bot/blob/main/summarization_with_tf_idf_and_t5.ipynb
 
 
-
+the code to start the summarizer bot is here  https://github.com/MariaSultanbekova/summarizer_bot/blob/main/main.py
