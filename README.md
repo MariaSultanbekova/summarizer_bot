@@ -42,10 +42,29 @@ let's see how they work
 ------------------------------------------------------------------------------------------------------------------------
 
 
-one of the best options for summarization: T5 - model from transformers
+one of the best options for summarization: T5 - model from transformers.
+The model consists of a sequence of encoder blocks and a sequence of decoders
+
+First, we encode the data, creating key and value embeddings, which will then be used in the attenuation mechanism in decoders.
+The encoding process also creates a semantic task vector, and then a sequence of decoders sequentially generates text.
+
+![](https://github.com/MariaSultanbekova/summarizer_bot/blob/main/images/encoder.png)
+![](https://github.com/MariaSultanbekova/summarizer_bot/blob/main/images/decoder.png)
+
+![](https://github.com/MariaSultanbekova/summarizer_bot/blob/main/images/encoder-decoder.png)
+
+encode the meaning of the task and create a vector for the words, then generate based on this
+
+----------------------------------------------------------------------------------------------------------
+Here are the results that the model produced
+![](https://github.com/MariaSultanbekova/summarizer_bot/blob/main/images/t5_results.png)
 
 
-the model consists of a sequence of encoder blocks and a sequence of decoders
+
+
+## Bot creating
+
+
 
 
 
