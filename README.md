@@ -55,8 +55,9 @@ Here are the results that the model produced
 ## Bot creating
 
 
+we need convert voice message to text and then feed it out model for summarization
 
-
+for converting speech to text i use silero model)
 
 
 
